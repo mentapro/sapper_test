@@ -1,0 +1,10 @@
+To run the programs execute: go run ./main.go
+
+To run tests execute: go test -v ./core
+
+
+Comments:
+I have extracted interfaces from the game, so in main.go I used interface method, so it is decoupled from implementation
+But also I organized code in one file, because there is not much code, so I don't want to over-engineer it.
+It is better to keep simpler file structure until we see a need to make it more complex.
+Also I have tests for every method in my logic, so I am sure that game works according to requirements.
